@@ -1,0 +1,27 @@
+.calc{
+    position: absolute;
+    top: 5em;
+    right: 30%;
+    left: 30%;
+    width: 40%;
+    height: 35em;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
+}
+.btn,.equal,.clear{
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.screen{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    font-size: 3em;
+   
+
+}
+
+
